@@ -2,4 +2,5 @@
 
 using C_Sharp_CodeWars;
 
-Console.WriteLine(Kyu8.FinalGrade(90,8));
+// Console.WriteLine(Kyu8.FinalGrade(90,8));
+Console.WriteLine(Kyu7.CountingInAmazon(3));
