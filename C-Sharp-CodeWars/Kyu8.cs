@@ -23,6 +23,13 @@ public class Kyu8 {
             
         return finalGrade;
     }
+
+    public static string reverseString(string str)
+    {
+        char[] words=  str.Reverse().ToArray(); //reverse returns an IEnumerable generic type
+        return string.Join("", words);
+        
+    }
     
     
 }
