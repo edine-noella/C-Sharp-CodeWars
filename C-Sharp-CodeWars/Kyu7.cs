@@ -21,4 +21,6 @@ public class Kyu7
         }
         return result;
     }
+    
+    
 }
