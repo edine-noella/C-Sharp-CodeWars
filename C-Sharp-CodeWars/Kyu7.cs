@@ -32,4 +32,17 @@ public class Kyu7
         return sum;
     }
 
+    public static void CountVowels(string str)
+    {
+        int count = 0;
+        foreach (char c in str.ToLower())
+        {
+            if ("aeiou".Contains(c))
+            {
+                count++;
+            }
+        }
+        Console.WriteLine($"Number of vowels in {str} is {count}");
+    }
+
 }
