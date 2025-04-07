@@ -45,4 +45,17 @@ public class Kyu7
         Console.WriteLine($"Number of vowels in {str} is {count}");
     }
 
+    public static char GetMiddle(string s)
+    {
+        int length = s.Length;
+        if (length % 2 == 0)
+        {
+            return s[length / 2 - 1];
+        }
+        else
+        {
+            return s[length / 2];
+        }
+    }
+
 }

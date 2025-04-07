@@ -7,4 +7,5 @@ using C_Sharp_CodeWars;
 // Console.WriteLine(Kyu8.reverseString("edine"));
 // Console.WriteLine(Kyu8.Capitalize("edine"));
 // Console.WriteLine(Kyu7.SumOddNumbers(5));
-Kyu7.CountVowels("edine noella");
+// Kyu7.CountVowels("edine noella");
+Console.WriteLine(Kyu7.GetMiddle("edine"));
