@@ -58,4 +58,15 @@ public class Kyu7
         }
     }
 
+        public static int AddUniqueNumbers(int[] numbers)
+    {
+        HashSet<int> uniqueNumbers = new HashSet<int>(numbers); // Use HashSet to store unique numbers
+        int sum = 0;
+        foreach (int number in uniqueNumbers)
+        {
+            sum += number;
+        }
+        return sum;
+    }
+
 }
