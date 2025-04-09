@@ -69,4 +69,13 @@ public class Kyu7
         return sum;
     }
 
+      public static int[] SquareEveryNumber(int[] numbers)
+    {
+        for (int i = 0; i < numbers.Length; i++)
+        {
+            numbers[i] *= numbers[i];
+        }
+        return numbers;
+    }
+
 }
