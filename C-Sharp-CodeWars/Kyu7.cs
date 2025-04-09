@@ -78,4 +78,9 @@ public class Kyu7
         return numbers;
     }
 
+    public static int[] invertArray(int[] array)
+    {
+        return array.Select(x => -x).ToArray();
+    }
+
 }

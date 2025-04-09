@@ -10,8 +10,8 @@ using C_Sharp_CodeWars;
 // Kyu7.CountVowels("edine noella");
 // Console.WriteLine(Kyu7.GetMiddle("edine"));
 // Console.WriteLine(Kyu7.AddUniqueNumbers([1, 2, 3, 4, 5, 5]));
-int[] squared = Kyu7.SquareEveryNumber([1, 2, 3, 4, 5]);
-foreach(int i in squared)
+int[] inverted = Kyu7.invertArray([1, 2, 3, 4, 5]);
+foreach(int i in inverted)
 {
     Console.WriteLine(i);
 }
